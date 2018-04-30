@@ -32,12 +32,12 @@
 
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Dropdown
+                    Albums
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="us.html">US Albums <span class="sr-only">(current)</span></a>
                     <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="#">Another action</a>
+                    <a class="dropdown-item" href="uk.html">UK Albums</a>
 
                 </div>
             </li>
@@ -53,13 +53,30 @@
 
 <main>
     <div class="container">
-        <div class="card-deck">
+        <div class="card-deck mt-5">
             <div class="card">
-                <img class="card-img-top" src=".../100px200/" alt="Card image cap">
+                <img class="card-img-top" src="img/us_alb/Meet_the_Beatles.jpg" alt="Meet the Beatles album cover">
+                <div class="card-header">
+                    Meet the Beatles!
+                </div>
                 <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    <div id="meet" class="track">
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">1.</li>
+                            <li class="list-group-item">2.</li>
+                            <li class="list-group-item">3.</li>
+                            <li class="list-group-item">4</li>
+                            <li class="list-group-item">5.</li>
+                            <li class="list-group-item">6.</li>
+                            <li class="list-group-item">7.</li>
+                            <li class="list-group-item">8.</li>
+                            <li class="list-group-item">9.</li>
+                            <li class="list-group-item">10.</li>
+                            <li class="list-group-item">11.</li>
+                            <li class="list-group-item">12.</li>
+                        </ul>
+                    </div>
+                    <button type="button" onclick='display("meet")' class="btn btn-info">Show Tracklist</button>
                 </div>
             </div>
             <div class="card">
@@ -85,6 +102,7 @@
 
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="script.js"></script>
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
