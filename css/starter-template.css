@@ -9,3 +9,12 @@ body {
 .track {
   display: none;
 }
+
+.card-img-top {
+  max-width: 300px;
+  max-height: 300px;
+}
+
+.card-header {
+  font-weight: bold;
+}
