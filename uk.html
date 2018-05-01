@@ -2,12 +2,12 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>US Albums</title>
+    <title>UK Albums</title>
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- Custom styles for this template -->
-    <link href="css/carousel.css" rel="stylesheet">
+    <link href="css/starter-template.css" rel="stylesheet">
 
 </head>
 <body>
@@ -21,7 +21,7 @@
     <div class="collapse navbar-collapse" id="navbarsExampleDefault">
         <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-                <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="index.html">Home</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="about.html">About</a>
@@ -35,329 +35,394 @@
                     Albums
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="us.html">US Albums <span class="sr-only">(current)</span></a>
+                    <a class="dropdown-item" href="us.html">US Albums</a>
                     <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="uk.html">UK Albums</a>
+                    <a class="dropdown-item" href="uk.html">UK Albums <span class="sr-only">(current)</span></a>
 
                 </div>
             </li>
 
         </ul>
-        <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-        </form>
+
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
     </div>
 </nav>
 
 
 <main>
-    <div class="container">
+    <div class="container text-center">
+        <h5 class="font-italic">
+            The Fab Four's home country issued their albums on EMI's Parlophone label until 1967. In 1968, Beatles albums were not only standardized between the US and UK markets, but they were also issued on the Beatles' own Apple label.
+        </h5>
         <div class="card-deck mt-5">
             <div class="card">
-                <img class="card-img-top" src="img/us_alb/Meet_the_Beatles.jpg" alt="Meet the Beatles album cover">
+                <img class="card-img-top" src="img/uk_alb/PleasePleaseMe.jpg" alt="Please Please Me album cover">
                 <div class="card-header">
-                    Meet the Beatles!
+                    Please Please Me
                 </div>
                 <div class="card-body">
-                    <div id="meet" class="track">
+                    <div id="pls" class="track">
                         <ul class="list-group list-group-flush">
-                            <li class="list-group-item">1.</li>
-                            <li class="list-group-item">2.</li>
-                            <li class="list-group-item">3.</li>
-                            <li class="list-group-item">4</li>
-                            <li class="list-group-item">5.</li>
-                            <li class="list-group-item">6.</li>
-                            <li class="list-group-item">7.</li>
-                            <li class="list-group-item">8.</li>
-                            <li class="list-group-item">9.</li>
-                            <li class="list-group-item">10.</li>
-                            <li class="list-group-item">11.</li>
-                            <li class="list-group-item">12.</li>
+                            <li class="list-group-item">1. I Saw Her Standing There</li>
+                            <li class="list-group-item">2. Misery</li>
+                            <li class="list-group-item">3. Anna (Go To Him) </li>
+                            <li class="list-group-item">4. Chains</li>
+                            <li class="list-group-item">5. Boys</li>
+                            <li class="list-group-item">6. Ask Me Why</li>
+                            <li class="list-group-item">7. Please Please Me</li>
+                            <li class="list-group-item">8. Love Me Do</li>
+                            <li class="list-group-item">9. P.S. I Love You</li>
+                            <li class="list-group-item">10. Baby It's You</li>
+                            <li class="list-group-item">11. Do You Want to Know A Secret </li>
+                            <li class="list-group-item">12. A Taste of Honey</li>
+                            <li class="list-group-item">13. There's A Place </li>
+                            <li class="list-group-item">14. Twist and Shout</li>
                         </ul>
                     </div>
-                    <button type="button" onclick='display("meet")' class="btn btn-info">Show Tracklist</button>
+                    <button type="button" onclick='display("pls")' class="btn btn-info">Show Tracklist</button>
                 </div>
             </div>
             <div class="card">
-                <img class="card-img-top" src="img/us_alb/Meet_the_Beatles.jpg" alt="Meet the Beatles album cover">
+                <img class="card-img-top" src="img/uk_alb/Withthebeatlescover.jpg" alt="The With the Beatles album cover">
                 <div class="card-header">
-                    Meet the Beatles!
+                    With the Beatles
                 </div>
                 <div class="card-body">
-                    <div id="meet" class="track">
+                    <div id="wtb" class="track">
                         <ul class="list-group list-group-flush">
-                            <li class="list-group-item">1.</li>
-                            <li class="list-group-item">2.</li>
-                            <li class="list-group-item">3.</li>
-                            <li class="list-group-item">4</li>
-                            <li class="list-group-item">5.</li>
-                            <li class="list-group-item">6.</li>
-                            <li class="list-group-item">7.</li>
-                            <li class="list-group-item">8.</li>
-                            <li class="list-group-item">9.</li>
-                            <li class="list-group-item">10.</li>
-                            <li class="list-group-item">11.</li>
-                            <li class="list-group-item">12.</li>
+                            <li class="list-group-item">1. It Won't Be Long </li>
+                            <li class="list-group-item">2. All I've Got to Do</li>
+                            <li class="list-group-item">3. All My Loving</li>
+                            <li class="list-group-item">4. Don't Bother Me</li>
+                            <li class="list-group-item">5. Little Child</li>
+                            <li class="list-group-item">6. Till There Was You</li>
+                            <li class="list-group-item">7. Please Mister Postman</li>
+                            <li class="list-group-item">8. Roll Over Beethoven</li>
+                            <li class="list-group-item">9. Hold Me Tight</li>
+                            <li class="list-group-item">10. You Really Got a Hold On Me</li>
+                            <li class="list-group-item">11. I Wanna Be Your Man</li>
+                            <li class="list-group-item">12. Devil In Her Heart</li>
+                            <li class="list-group-item">13. Not A Second Time</li>
+                            <li class="list-group-item">14. Money (That's What I Want)</li>
+
                         </ul>
                     </div>
-                    <button type="button" onclick='display("meet")' class="btn btn-info">Show Tracklist</button>
+                    <button type="button" onclick='display("wtb")' class="btn btn-info">Show Tracklist</button>
                 </div>
             </div>
             <div class="card">
-                <img class="card-img-top" src="img/us_alb/Meet_the_Beatles.jpg" alt="Meet the Beatles album cover">
+                <img class="card-img-top" src="img/uk_alb/HardDayUK.jpg" alt="A Hard Day's Night album cover">
                 <div class="card-header">
-                    Meet the Beatles!
+                    A Hard Day's Night
                 </div>
                 <div class="card-body">
-                    <div id="meet" class="track">
+                    <div id="hdn-uk" class="track">
                         <ul class="list-group list-group-flush">
-                            <li class="list-group-item">1.</li>
-                            <li class="list-group-item">2.</li>
-                            <li class="list-group-item">3.</li>
-                            <li class="list-group-item">4</li>
-                            <li class="list-group-item">5.</li>
-                            <li class="list-group-item">6.</li>
-                            <li class="list-group-item">7.</li>
-                            <li class="list-group-item">8.</li>
-                            <li class="list-group-item">9.</li>
-                            <li class="list-group-item">10.</li>
-                            <li class="list-group-item">11.</li>
-                            <li class="list-group-item">12.</li>
+                            <li class="list-group-item">1. A Hard Day's Night</li>
+                            <li class="list-group-item">2. I Should Have Known Better</li>
+                            <li class="list-group-item">3. If I Fell</li>
+                            <li class="list-group-item">4. I'm Happy Just to Dance With You</li>
+                            <li class="list-group-item">5. And I Love Her</li>
+                            <li class="list-group-item">6. Tell Me Why</li>
+                            <li class="list-group-item">7. Can't Buy Me Love</li>
+                            <li class="list-group-item">8. Any Time At All</li>
+                            <li class="list-group-item">9. I'll Cry Instead</li>
+                            <li class="list-group-item">10. Things We Said Today</li>
+                            <li class="list-group-item">11. When I Get Home</li>
+                            <li class="list-group-item">12. You Can't Do That</li>
+                            <li class="list-group-item">13. I'll Be Back</li>
                         </ul>
                     </div>
-                    <button type="button" onclick='display("meet")' class="btn btn-info">Show Tracklist</button>
+                    <button type="button" onclick='display("hdn-uk")' class="btn btn-info">Show Tracklist</button>
                 </div>
             </div>
         </div>
         <div class="card-deck mt-5">
             <div class="card">
-                <img class="card-img-top" src="img/us_alb/Meet_the_Beatles.jpg" alt="Meet the Beatles album cover">
+                <img class="card-img-top" src="img/uk_alb/Beatlesforsale.jpg" alt="Beatles For Sale album cover">
                 <div class="card-header">
-                    Meet the Beatles!
+                    Beatles For Sale
                 </div>
                 <div class="card-body">
-                    <div id="meet" class="track">
+                    <div id="sale" class="track">
                         <ul class="list-group list-group-flush">
-                            <li class="list-group-item">1.</li>
-                            <li class="list-group-item">2.</li>
-                            <li class="list-group-item">3.</li>
-                            <li class="list-group-item">4</li>
-                            <li class="list-group-item">5.</li>
-                            <li class="list-group-item">6.</li>
-                            <li class="list-group-item">7.</li>
-                            <li class="list-group-item">8.</li>
-                            <li class="list-group-item">9.</li>
-                            <li class="list-group-item">10.</li>
-                            <li class="list-group-item">11.</li>
-                            <li class="list-group-item">12.</li>
+                            <li class="list-group-item">1. No Reply</li>
+                            <li class="list-group-item">2. I'm A Loser</li>
+                            <li class="list-group-item">3. Baby's In Black</li>
+                            <li class="list-group-item">4. Rock and Roll Music</li>
+                            <li class="list-group-item">5. I'll Follow The Sun</li>
+                            <li class="list-group-item">6. Mr. Moonlight </li>
+                            <li class="list-group-item">7. Kansas City/Hey, Hey, Hey</li>
+                            <li class="list-group-item">8. Eight Days A Week</li>
+                            <li class="list-group-item">9. Words of Love</li>
+                            <li class="list-group-item">10.Honey Don't</li>
+                            <li class="list-group-item">11.Every Little Thing</li>
+                            <li class="list-group-item">12. I Don't Wanna Spoil The Party</li>
+                            <li class="list-group-item">13. What You're Doing</li>
+                            <li class="list-group-item">14. Everybody's Trying to Be My Baby</li>
                         </ul>
                     </div>
-                    <button type="button" onclick='display("meet")' class="btn btn-info">Show Tracklist</button>
+                    <button type="button" onclick='display("sale")' class="btn btn-info">Show Tracklist</button>
                 </div>
             </div>
             <div class="card">
-                <img class="card-img-top" src="img/us_alb/Meet_the_Beatles.jpg" alt="Meet the Beatles album cover">
+                <img class="card-img-top" src="img/uk_alb/Help!UK.jpg" alt="Beatles story album cover">
                 <div class="card-header">
-                    Meet the Beatles!
+                    Help!
                 </div>
                 <div class="card-body">
-                    <div id="meet" class="track">
+                    <div id="help-uk" class="track">
                         <ul class="list-group list-group-flush">
-                            <li class="list-group-item">1.</li>
-                            <li class="list-group-item">2.</li>
-                            <li class="list-group-item">3.</li>
-                            <li class="list-group-item">4</li>
-                            <li class="list-group-item">5.</li>
-                            <li class="list-group-item">6.</li>
-                            <li class="list-group-item">7.</li>
-                            <li class="list-group-item">8.</li>
-                            <li class="list-group-item">9.</li>
-                            <li class="list-group-item">10.</li>
-                            <li class="list-group-item">11.</li>
-                            <li class="list-group-item">12.</li>
+                            <li class="list-group-item">1. Help!</li>
+                            <li class="list-group-item">2. The Night Before</li>
+                            <li class="list-group-item">3. You've Got to Hide Your Love Away</li>
+                            <li class="list-group-item">4. I Need You</li>
+                            <li class="list-group-item">5. Another Girl</li>
+                            <li class="list-group-item">6. You're Going to Lose That Girl</li>
+                            <li class="list-group-item">7. Ticket to Ride</li>
+                            <li class="list-group-item">8. Act Naturally</li>
+                            <li class="list-group-item">9. It's Only Love</li>
+                            <li class="list-group-item">10. You Like Me Too Much</li>
+                            <li class="list-group-item">11. Tell Me What You See</li>
+                            <li class="list-group-item">12. I've Just Seen A Face</li>
+                            <li class="list-group-item">13. Yesterday</li>
+                            <li class="list-group-item">14. Dizzy Miss Lizzy</li>
+
                         </ul>
                     </div>
-                    <button type="button" onclick='display("meet")' class="btn btn-info">Show Tracklist</button>
+                    <button type="button" onclick='display("help-uk")' class="btn btn-info">Show Tracklist</button>
                 </div>
             </div>
             <div class="card">
-                <img class="card-img-top" src="img/us_alb/Meet_the_Beatles.jpg" alt="Meet the Beatles album cover">
+                <img class="card-img-top" src="img/uk_alb/Rubber_Soul.jpg" alt="Rubber Soul album cover">
                 <div class="card-header">
-                    Meet the Beatles!
+                    Rubber Soul
                 </div>
                 <div class="card-body">
-                    <div id="meet" class="track">
+                    <div id="rubber" class="track">
                         <ul class="list-group list-group-flush">
-                            <li class="list-group-item">1.</li>
-                            <li class="list-group-item">2.</li>
-                            <li class="list-group-item">3.</li>
-                            <li class="list-group-item">4</li>
-                            <li class="list-group-item">5.</li>
-                            <li class="list-group-item">6.</li>
-                            <li class="list-group-item">7.</li>
-                            <li class="list-group-item">8.</li>
-                            <li class="list-group-item">9.</li>
-                            <li class="list-group-item">10.</li>
-                            <li class="list-group-item">11.</li>
-                            <li class="list-group-item">12.</li>
+                            <li class="list-group-item">1. Drive My Car</li>
+                            <li class="list-group-item">2. Norwegian Wood (This Bird Has Flown)</li>
+                            <li class="list-group-item">3. You Won't See Me</li>
+                            <li class="list-group-item">4. Nowhere Man</li>
+                            <li class="list-group-item">5. Think For Yourself</li>
+                            <li class="list-group-item">6. The Word</li>
+                            <li class="list-group-item">7. Michelle</li>
+                            <li class="list-group-item">8. What Goes On</li>
+                            <li class="list-group-item">9. Girl</li>
+                            <li class="list-group-item">10. I'm Looking Through You</li>
+                            <li class="list-group-item">11. In My Life</li>
+                            <li class="list-group-item">12. Wait</li>
+                            <li class="list-group-item">13. If I Needed Someone</li>
+                            <li class="list-group-item">13. Run For Your Life</li>
                         </ul>
                     </div>
-                    <button type="button" onclick='display("meet")' class="btn btn-info">Show Tracklist</button>
-                </div>
-            </div>
-        </div>
-        <div class="card-deck mt-5">
-            <div class="card">
-                <img class="card-img-top" src="img/us_alb/Meet_the_Beatles.jpg" alt="Meet the Beatles album cover">
-                <div class="card-header">
-                    Meet the Beatles!
-                </div>
-                <div class="card-body">
-                    <div id="meet" class="track">
-                        <ul class="list-group list-group-flush">
-                            <li class="list-group-item">1.</li>
-                            <li class="list-group-item">2.</li>
-                            <li class="list-group-item">3.</li>
-                            <li class="list-group-item">4</li>
-                            <li class="list-group-item">5.</li>
-                            <li class="list-group-item">6.</li>
-                            <li class="list-group-item">7.</li>
-                            <li class="list-group-item">8.</li>
-                            <li class="list-group-item">9.</li>
-                            <li class="list-group-item">10.</li>
-                            <li class="list-group-item">11.</li>
-                            <li class="list-group-item">12.</li>
-                        </ul>
-                    </div>
-                    <button type="button" onclick='display("meet")' class="btn btn-info">Show Tracklist</button>
-                </div>
-            </div>
-            <div class="card">
-                <img class="card-img-top" src="img/us_alb/Meet_the_Beatles.jpg" alt="Meet the Beatles album cover">
-                <div class="card-header">
-                    Meet the Beatles!
-                </div>
-                <div class="card-body">
-                    <div id="meet" class="track">
-                        <ul class="list-group list-group-flush">
-                            <li class="list-group-item">1.</li>
-                            <li class="list-group-item">2.</li>
-                            <li class="list-group-item">3.</li>
-                            <li class="list-group-item">4</li>
-                            <li class="list-group-item">5.</li>
-                            <li class="list-group-item">6.</li>
-                            <li class="list-group-item">7.</li>
-                            <li class="list-group-item">8.</li>
-                            <li class="list-group-item">9.</li>
-                            <li class="list-group-item">10.</li>
-                            <li class="list-group-item">11.</li>
-                            <li class="list-group-item">12.</li>
-                        </ul>
-                    </div>
-                    <button type="button" onclick='display("meet")' class="btn btn-info">Show Tracklist</button>
-                </div>
-            </div>
-            <div class="card">
-                <img class="card-img-top" src="img/us_alb/Meet_the_Beatles.jpg" alt="Meet the Beatles album cover">
-                <div class="card-header">
-                    Meet the Beatles!
-                </div>
-                <div class="card-body">
-                    <div id="meet" class="track">
-                        <ul class="list-group list-group-flush">
-                            <li class="list-group-item">1.</li>
-                            <li class="list-group-item">2.</li>
-                            <li class="list-group-item">3.</li>
-                            <li class="list-group-item">4</li>
-                            <li class="list-group-item">5.</li>
-                            <li class="list-group-item">6.</li>
-                            <li class="list-group-item">7.</li>
-                            <li class="list-group-item">8.</li>
-                            <li class="list-group-item">9.</li>
-                            <li class="list-group-item">10.</li>
-                            <li class="list-group-item">11.</li>
-                            <li class="list-group-item">12.</li>
-                        </ul>
-                    </div>
-                    <button type="button" onclick='display("meet")' class="btn btn-info">Show Tracklist</button>
+                    <button type="button" onclick='display("rubber")' class="btn btn-info">Show Tracklist</button>
                 </div>
             </div>
         </div>
         <div class="card-deck mt-5">
             <div class="card">
-                <img class="card-img-top" src="img/us_alb/Meet_the_Beatles.jpg" alt="Meet the Beatles album cover">
+                <img class="card-img-top" src="img/uk_alb/Revolver.jpg" alt="Revolver album cover">
                 <div class="card-header">
-                    Meet the Beatles!
+                    Revolver
                 </div>
                 <div class="card-body">
-                    <div id="meet" class="track">
+                    <div id="revolver" class="track">
                         <ul class="list-group list-group-flush">
-                            <li class="list-group-item">1.</li>
-                            <li class="list-group-item">2.</li>
-                            <li class="list-group-item">3.</li>
-                            <li class="list-group-item">4</li>
-                            <li class="list-group-item">5.</li>
-                            <li class="list-group-item">6.</li>
-                            <li class="list-group-item">7.</li>
-                            <li class="list-group-item">8.</li>
-                            <li class="list-group-item">9.</li>
-                            <li class="list-group-item">10.</li>
-                            <li class="list-group-item">11.</li>
-                            <li class="list-group-item">12.</li>
+                            <li class="list-group-item">1. Taxman</li>
+                            <li class="list-group-item">2. Eleanor Rigby</li>
+                            <li class="list-group-item">3. I'm Only Sleeping</li>
+                            <li class="list-group-item">4. Love You To</li>
+                            <li class="list-group-item">5. Here, There, and Everywhere</li>
+                            <li class="list-group-item">6. Yellow Submarine</li>
+                            <li class="list-group-item">7. She Said, She Said</li>
+                            <li class="list-group-item">8. Good Day Sunshine</li>
+                            <li class="list-group-item">9. And Your Bird Can Sing</li>
+                            <li class="list-group-item">10. For No One</li>
+                            <li class="list-group-item">11. Dr. Robert</li>
+                            <li class="list-group-item">12. I Want to Tell You</li>
+                            <li class="list-group-item">13. Got to Get You Into My Life</li>
+                            <li class="list-group-item">14. Tomorrow Never Knows</li>
                         </ul>
                     </div>
-                    <button type="button" onclick='display("meet")' class="btn btn-info">Show Tracklist</button>
+                    <button type="button" onclick='display("revolver")' class="btn btn-info">Show Tracklist</button>
                 </div>
             </div>
             <div class="card">
-                <img class="card-img-top" src="img/us_alb/Meet_the_Beatles.jpg" alt="Meet the Beatles album cover">
+                <img class="card-img-top" src="img/uk_alb/Pepper.jpg" alt="Sergeant Pepper's album cover ">
                 <div class="card-header">
-                    Meet the Beatles!
+                    Sgt. Pepper's Lonely Hearts Club Band
                 </div>
                 <div class="card-body">
-                    <div id="meet" class="track">
+                    <div id="pepper" class="track">
                         <ul class="list-group list-group-flush">
-                            <li class="list-group-item">1.</li>
-                            <li class="list-group-item">2.</li>
-                            <li class="list-group-item">3.</li>
-                            <li class="list-group-item">4</li>
-                            <li class="list-group-item">5.</li>
-                            <li class="list-group-item">6.</li>
-                            <li class="list-group-item">7.</li>
-                            <li class="list-group-item">8.</li>
-                            <li class="list-group-item">9.</li>
-                            <li class="list-group-item">10.</li>
-                            <li class="list-group-item">11.</li>
-                            <li class="list-group-item">12.</li>
+                            <li class="list-group-item">1. Sgt. Pepper's Lonely Hearts Club Band</li>
+                            <li class="list-group-item">2. With A Little Help From My Friends</li>
+                            <li class="list-group-item">3. Lucy In The Sky With Diamonds</li>
+                            <li class="list-group-item">4. Getting Better</li>
+                            <li class="list-group-item">5. Fixing A Hole</li>
+                            <li class="list-group-item">6. She's Leaving Home</li>
+                            <li class="list-group-item">7. Being For The Benefit of Mr. Kite!</li>
+                            <li class="list-group-item">8. Within You, Without You</li>
+                            <li class="list-group-item">9. When I'm Sixty-Four</li>
+                            <li class="list-group-item">10. Lovely Rita</li>
+                            <li class="list-group-item">11. Good Morning, Good Morning</li>
+                            <li class="list-group-item">12. Sgt. Pepper's Lonely Hearts Club Band (reprise)</li>
+                            <li class="list-group-item">13. A Day In The Life</li>
                         </ul>
                     </div>
-                    <button type="button" onclick='display("meet")' class="btn btn-info">Show Tracklist</button>
+                    <button type="button" onclick='display("pepper")' class="btn btn-info">Show Tracklist</button>
                 </div>
             </div>
             <div class="card">
-                <img class="card-img-top" src="img/us_alb/Meet_the_Beatles.jpg" alt="Meet the Beatles album cover">
+                <img class="card-img-top" src="img/us_alb/TheBeatlesMagicalMysteryTouralbumcover.jpg" alt="Magical Mystery Tour album cover">
                 <div class="card-header">
-                    Meet the Beatles!
+                    Magical Mystery Tour
                 </div>
                 <div class="card-body">
-                    <div id="meet" class="track">
+                    <div id="mmt" class="track">
                         <ul class="list-group list-group-flush">
-                            <li class="list-group-item">1.</li>
-                            <li class="list-group-item">2.</li>
-                            <li class="list-group-item">3.</li>
-                            <li class="list-group-item">4</li>
-                            <li class="list-group-item">5.</li>
-                            <li class="list-group-item">6.</li>
-                            <li class="list-group-item">7.</li>
-                            <li class="list-group-item">8.</li>
-                            <li class="list-group-item">9.</li>
-                            <li class="list-group-item">10.</li>
-                            <li class="list-group-item">11.</li>
-                            <li class="list-group-item">12.</li>
+                            <li class="list-group-item">1. Magical Mystery Tour</li>
+                            <li class="list-group-item">2. Fool on the Hill</li>
+                            <li class="list-group-item">3. From Me To You (inst.)</li>
+                            <li class="list-group-item">4. Flying</li>
+                            <li class="list-group-item">5. Blue Jay Way</li>
+                            <li class="list-group-item">6. Your Mother Should Know</li>
+                            <li class="list-group-item">7. I Am The Walrus</li>
+                            <li class="list-group-item">8. Hello Goodbye</li>
+                            <li class="list-group-item">9. Strawberry Fields Forever</li>
+                            <li class="list-group-item">10. Penny Lane</li>
+                            <li class="list-group-item">11. Baby You're A Rich Man</li>
+                            <li class="list-group-item">12. All You Need Is Love</li>
                         </ul>
                     </div>
-                    <button type="button" onclick='display("meet")' class="btn btn-info">Show Tracklist</button>
+                    <button type="button" onclick='display("mmt")' class="btn btn-info">Show Tracklist</button>
+                </div>
+            </div>
+        </div>
+        <div class="card-deck mt-5">
+            <div class="card">
+                <img class="card-img-top" src="img/uk_alb/TheBeatles68LP.jpg" alt="Beatles album cover">
+                <div class="card-header">
+                    The Beatles (The White Album)
+                </div>
+                <div class="card-body">
+                    <div id="white" class="track">
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">1. Back In The U.S.S.R.</li>
+                            <li class="list-group-item">2. Dear Prudence</li>
+                            <li class="list-group-item">3. Glass Onion</li>
+                            <li class="list-group-item">4. Ob-La-Di, Ob-La-Da</li>
+                            <li class="list-group-item">5. Wild Honey Pie</li>
+                            <li class="list-group-item">6. The Continuing Story of Bungalow Bill</li>
+                            <li class="list-group-item">7. While My Guitar Gently Weeps</li>
+                            <li class="list-group-item">8. Happiness Is A Warm Gun</li>
+                            <li class="list-group-item">9. Martha My Dear</li>
+                            <li class="list-group-item">10. I'm So Tired</li>
+                            <li class="list-group-item">11. Blackbird</li>
+                            <li class="list-group-item">12. Piggies</li>
+                            <li class="list-group-item">13. Rocky Raccoon</li>
+                            <li class="list-group-item">14. Don't Pass Me By</li>
+                            <li class="list-group-item">15. Why Don't We Do It In The Road?</li>
+                            <li class="list-group-item">16. I Will</li>
+                            <li class="list-group-item">17. Julia</li>
+                            <li class="list-group-item">18. Birthday</li>
+                            <li class="list-group-item">19. Yer Blues</li>
+                            <li class="list-group-item">20. Mother Nature's Son</li>
+                            <li class="list-group-item">21. Everybody's Got Something to Hide Except Me And My Monkey</li>
+                            <li class="list-group-item">22. Sexy Sadie</li>
+                            <li class="list-group-item">23. Long, Long, Long</li>
+                            <li class="list-group-item">24. Revolution 1</li>
+                            <li class="list-group-item">25. Honey Pie</li>
+                            <li class="list-group-item">26. Savoy Truffle</li>
+                            <li class="list-group-item">27. Cry Baby Cry</li>
+                            <li class="list-group-item">28. Revolution 9</li>
+                            <li class="list-group-item">29. Good Night</li>
+                        </ul>
+                    </div>
+                    <button type="button" onclick='display("white")' class="btn btn-info">Show Tracklist</button>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-img-top" src="img/uk_alb/YellowSub.jpg" alt="Yellow Submarine album cover">
+                <div class="card-header">
+                    Yellow Submarine
+                </div>
+                <div class="card-body">
+                    <div id="sub" class="track">
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">1. Yellow Submarine</li>
+                            <li class="list-group-item">2. Only A Northern Song</li>
+                            <li class="list-group-item">3. All Together Now</li>
+                            <li class="list-group-item">4. Hey Bulldog</li>
+                            <li class="list-group-item">5. It's All Too Much</li>
+                            <li class="list-group-item">6. All You Need Is Love</li>
+                            <li class="list-group-item">7. Pepperland (inst.)</li>
+                            <li class="list-group-item">8. Sea of Time (inst.)</li>
+                            <li class="list-group-item">9. Sea of Holes (inst.)</li>
+                            <li class="list-group-item">10. Sea of Monsters (inst.)</li>
+                            <li class="list-group-item">11. March of Meames (inst.)</li>
+                            <li class="list-group-item">12. Pepperland Laid Waste (inst.)</li>
+                            <li class="list-group-item">13. Yellow Submarine In Pepperland (inst.)</li>
+                        </ul>
+                    </div>
+                    <button type="button" onclick='display("sub")' class="btn btn-info">Show Tracklist</button>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-img-top" src="img/uk_alb/Abbey.jpg" alt="Abbey Road album cover">
+                <div class="card-header">
+                    Abbey Road
+                </div>
+                <div class="card-body">
+                    <div id="abbey" class="track">
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">1. Come Together</li>
+                            <li class="list-group-item">2. Something</li>
+                            <li class="list-group-item">3. Maxwell's Silver Hammer</li>
+                            <li class="list-group-item">4. Oh! Darling</li>
+                            <li class="list-group-item">5. Octopus's Garden</li>
+                            <li class="list-group-item">6. I Want You (She's So Heavy)</li>
+                            <li class="list-group-item">7. Here Comes The Sun</li>
+                            <li class="list-group-item">8. Because</li>
+                            <li class="list-group-item">9. You Never Give Me Your Money</li>
+                            <li class="list-group-item">10. Sun King</li>
+                            <li class="list-group-item">11. Mean Mr. Mustard</li>
+                            <li class="list-group-item">12. Polythene Pam</li>
+                            <li class="list-group-item">13. She Came In Through The Bathroom Window</li>
+                            <li class="list-group-item">14. Golden Slumbers</li>
+                            <li class="list-group-item">15. Carry That Weight</li>
+                            <li class="list-group-item">16. The End</li>
+                            <li class="list-group-item">17. Her Majesty</li>
+                        </ul>
+                    </div>
+                    <button type="button" onclick='display("abbey")' class="btn btn-info">Show Tracklist</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img class="card-img-top" src="img/uk_alb/LetItBe.jpg" alt="Let It Be album cover">
+                <div class="card-header">
+                    Let It Be
+                </div>
+                <div class="card-body">
+                    <div id="lib" class="track">
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">1. Two Of Us</li>
+                            <li class="list-group-item">2. Dig A Pony</li>
+                            <li class="list-group-item">3. Across The Universe</li>
+                            <li class="list-group-item">4. I Me Mine</li>
+                            <li class="list-group-item">5. Let It Be</li>
+                            <li class="list-group-item">6. Maggie Mae</li>
+                            <li class="list-group-item">7. I've Got A Feeling</li>
+                            <li class="list-group-item">8. One After 909</li>
+                            <li class="list-group-item">9. The Long and Winding Road</li>
+                            <li class="list-group-item">10. For You Blue</li>
+                            <li class="list-group-item">11. Get Back</li>
+                        </ul>
+                    </div>
+                    <button type="button" onclick='display("lib")' class="btn btn-info">Show Tracklist</button>
                 </div>
             </div>
         </div>
