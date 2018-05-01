@@ -23,3 +23,15 @@ body {
 li {
   text-align: left;
 }
+
+
+.spotify:hover {
+    color: #45d365;
+}
+
+.amazon:hover {
+    color: goldenrod;
+}
+.tunes:hover {
+    color: deepskyblue;
+}
