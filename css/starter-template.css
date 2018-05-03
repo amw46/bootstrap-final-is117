@@ -40,6 +40,21 @@ li {
     font-size:150%;
 }
 
-.font {
+.helv {
     font-family: "Helvetica Neue";
+}
+.fantasy {
+    font-family: "fantasy";
+}
+
+
+.person {
+    border: 10px solid transparent;
+    margin-bottom: 25px;
+    width: 85%;
+    height: 85%;
+    opacity: 0.75;
+}
+.person:hover {
+    border-color: #e2e2e2;
 }
