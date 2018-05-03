@@ -35,3 +35,11 @@ li {
 .tunes:hover {
     color: deepskyblue;
 }
+
+.big {
+    font-size:150%;
+}
+
+.font {
+    font-family: "Helvetica Neue";
+}
