@@ -48,7 +48,10 @@
         </ul>
 
         <!-- <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button> -->
-        <a class="btn btn-outline-success my-2 my-sm-0" href="#">Test</a>
+        <span class="navbar-text mr-3 my-sm-0">
+            Check out the Beatles Store!
+        </span>
+        <a class="btn btn-outline-success my-2 my-sm-0" href="https://thebeatlesstore.com/">STORE</a>
 
     </div>
 </nav>
@@ -57,11 +60,16 @@
 
 
     <div class="container">
+
         <div class="row-lg-12">
             <div class="card mt-4 border-0 text-center">
-                <div class="card-header">
-                    <h2>About us...</h2>
+                <div class="container-fluid">
+                <div class="card border-0">
+                    <div class="card-body">
+                        <h2 class="fantasy" style="font-size: 4rem;">ABOUT US</h2>
+                    </div>
                 </div>
+            </div>
                 <div class="card-body">
                     <p class="big helv"><strong>Here Comes The Sun</strong> is a fan-site started in 2018. We are devoted to the legendary "Fab Four": the boys from Liverpool whose musical escapades took the world by storm in the 1960s. </p>
                 </div>
@@ -75,14 +83,18 @@
                 <div class="card-body">
                     <p class="text-center">Have a question? Want to leave a comment? You can do so here!</p>
                     <p class="text-center">* - Required</p>
-                    <div class="form-group">
-                        <label for="nameform">Your Name*</label>
-                        <input type="text" id="nameform" class="form-control" placeholder="Your name" required>
-                        <label for="email">Your Email</label>
-                        <input type="email" id="email" class="form-control" placeholder="something@example.com">
-                        <label for="textarea1">Your Message</label>
-                        <textarea class="form-control" id="textarea1" rows="3"></textarea>
-                    </div>
+                    <form>
+                        <div class="form-group">
+                            <label for="nameform">Your Name*</label>
+                            <input type="text" id="nameform" class="form-control" placeholder="Your name" required>
+                            <label for="email">Your Email</label>
+                            <input type="email" id="email" class="form-control" placeholder="something@example.com">
+                            <label for="textarea1">Your Message</label>
+                            <textarea class="form-control" id="textarea1" rows="3"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+
                 </div>
             </div>
         </div>
